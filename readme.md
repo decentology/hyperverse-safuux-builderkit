@@ -5,17 +5,17 @@
 
 # Hyperverse SafuuX Builderkit
 
-This is an initial scaffold project to assit with building a smart module for the Hyperverse
+This is an initial scaffold project to assist with building a smart module for the Hyperverse
 
 ## How the project is setup
 
 1. `Contracts` - This is the first layer. Think of this as your database model and repository for how to fetch and store data
 2. `Source` - Contains your javascript interface to your contracts. 
-3. `Stories` - This is your UI inteterface to your smart module that allows for documentating and testing the functionality of your smart module
+3. `Stories` - This is your UI interface to your smart module that allows for documentating and testing the functionality of your smart module
 
 
 ## Contracts
-Modules are primarily written in `solidity`. They utilize the `hardat` framework to assit in the compilation and deploying of your contracts
+Modules are primarily written in `solidity`. They utilize the `hardat` framework to assist in the compilation and deploying of your contracts
 
 ## Source
 The javascript source connects to the smart module using `ethers` by default. The format of a Hyperverse smart module is broken down into further sub sections
